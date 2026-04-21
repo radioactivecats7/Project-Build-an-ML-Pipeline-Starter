@@ -58,42 +58,42 @@ if __name__ == "__main__":
     parser.add_argument(
         "--input_artifact", 
         type = str,
-        help = 'This is a qualified input CSV artifact in W&B'
+        help = "This is a qualified input CSV artifact in W&B",
         required = True
     )
 
     parser.add_argument(
         "--output_artifact", 
         type = str,
-        help = 'This is the result of a cleaned input artifact'
+        help = "This is the result of a cleaned input artifact",
         required = True
     )
 
     parser.add_argument(
         "--output_type", 
         type = str,
-        help = 'Artifact types for the cleaned data'
+        help = "This is the result of a cleaned input artifact",
         required = True
     )
 
     parser.add_argument(
         "--output_description", 
         type = str,
-        help = 'This is a description of what is inside of the cleaned artifact'
+        help = "This is a description of what is inside of the cleaned artifact",
         required = True
     )
 
     parser.add_argument(
         "--min_price", 
         type = float,
-        help = 'This is the minimum price per night'
+        help = "This is the minimum price per night",
         required = True
     )
 
     parser.add_argument(
         "--max_price",
         type = float,
-        help = 'This is the maximum price per night'
+        help = "This is the maximum price per night",
         required = True
     )
 
